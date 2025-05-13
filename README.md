@@ -54,15 +54,15 @@ When you’re finished with the challenge, please submit the link to your Github
 
 - Main method:
   I am using a pre-trained LLM, I am the going to fine-tune (manually/supervised).<br>
-  The plan is to zero-shot via embeddings a small size of the data. Then I verify the ground truth. After that, the model is trained on the training data.<br>
+  The plan is to zero-shot via embeddings a small size of the data. Then I verify the ground truth. After that, the model is trained on the training data. Because there are a lot of data to be verified, is easier in the long run to have a feedback loop (closed feedback loop).<br>
 
   Pro points:
-  -> I could have better answers
-  -> supervised learning (I can check early mistakes)
+  <br>-> I could have better answers
+  <br>-> supervised learning (I can check early mistakes)
 
   Con points:
-  -> I am not going full auto
-  -> more time spent on developing own model
+  <br>-> I am not going full auto
+  <br>-> more time spent on developing own model
 
 - Second method:
   The first method I built, checking my knowledge/tutorials/AI. I wrote some strong comments in the code also. I can say as well as you that it is a cheap version, not classy.<br>
@@ -77,3 +77,5 @@ When you’re finished with the challenge, please submit the link to your Github
 - I thought about giving a shot to using a GPT, but then I was not satisfied with my own learning process. For sure it can be done with tokenization of one of the AIs, but an easy solve is not good for developing own ideas.
 
 - I think that with a simple neural network we can have also some results, but the time to train it is not worth in my opinion (lot of time, mediocre result).
+
+- When building the main solution, I wanted to use NLP, but I am not sure how to integrate it. I made a little bit of research and I think it can be implemented in a way or another.
