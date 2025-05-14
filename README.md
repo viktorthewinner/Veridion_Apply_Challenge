@@ -88,5 +88,4 @@ When you’re finished with the challenge, please submit the link to your Github
 - When developing the solution, I also had the possibility to use vectorization (TF-IDF). The main purpose I didn`t use was the complexity (harder to get a good solution in my opinion).
 
 <h2>Opinion</h2>
-<br>
 A nice problem and a nice way to learn a bit more. A week full of failing scripts, but a week in which I applied my knowledge and visions.
