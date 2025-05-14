@@ -61,10 +61,3 @@ data_exp.to_csv("manual_validation_needed.csv", index=False)
 
 np.save(os.path.join(save_dir, "company_embeddings.npy"), company_embeddings.cpu().numpy())
 np.save(os.path.join(save_dir, "taxonomy_embeddings.npy"), tax_embeddings.cpu().numpy())
-
-
-# save the model
-model_save_path = os.path.join(save_dir, "sentence_transformer_model")
-model.save(model_save_path)
-
-print(f"Model saved to {model_save_path}")
