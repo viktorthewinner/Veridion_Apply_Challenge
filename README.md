@@ -54,15 +54,20 @@ When you’re finished with the challenge, please submit the link to your Github
 
 - Main method:
   I am using a pre-trained LLM, I am the going to fine-tune (manually/supervised).<br>
-  The plan is to zero-shot via embeddings a small size of the data. Then I verify the ground truth. After that, the model is trained on the training data. Because there are a lot of data to be verified, is easier in the long run to have a feedback loop (closed feedback loop).<br>
+  The plan is to zero-shot via embeddings a small size of the data. Then I verify the ground truth. After that, the model is trained on the training data. Because there are a lot of data to be verified, is easier in the long run to have a feedback loop (closed feedback loop). For better answers, I think there must be at least 200 to 300 feedbacks.<br>
 
   Pro points:
   <br>-> I could have better answers
   <br>-> supervised learning (I can check early mistakes)
+  <br>-> RLHF
+  <br>-> embeddings can define the model
+  <br>-> using MLB (MultiLabelBinarizer) for insurance labels
+  <br>-> OvR is better than MOC (perfect match with MLB)
 
   Con points:
   <br>-> I am not going full auto
   <br>-> more time spent on developing own model
+  <br>-> at the beggining it is harder to scale for bigger sets of data, because of the lack of training
 
 - Second method:
   The first method I built, checking my knowledge/tutorials/AI. I wrote some strong comments in the code also. I can say as well as you that it is a cheap version, not classy.<br>
@@ -79,3 +84,9 @@ When you’re finished with the challenge, please submit the link to your Github
 - I think that with a simple neural network we can have also some results, but the time to train it is not worth in my opinion (lot of time, mediocre result).
 
 - When building the main solution, I wanted to use NLP, but I am not sure how to integrate it. I made a little bit of research and I think it can be implemented in a way or another.
+
+- When developing the solution, I also had the possibility to use vectorization (TF-IDF). The main purpose I didn`t use was the complexity (harder to get a good solution in my opinion).
+
+<h2>Opinion</h2>
+<br>
+A nice problem and a nice way to learn a bit more. A week full of failing scripts, but a week in which I applied my knowledge and visions.
