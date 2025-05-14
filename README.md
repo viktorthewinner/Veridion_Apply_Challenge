@@ -70,7 +70,7 @@ When you’re finished with the challenge, please submit the link to your Github
   <br>-> at the begining it is harder to scale for bigger sets of data, because of the lack of training
 
 - Second method:
-  The first method I built, checking my knowledge/tutorials/AI. I wrote some strong comments in the code also. I can say as well as you that it is a cheap version, not classy.<br>
+  Just checking my knowledge/tutorials/AI on a fast delivery script. I wrote some strong comments in the code also. I can say as well as you that it is a cheap version, not classy.<br>
   For a small project, it is ok to go with a pre-trained LLM and to get fast answers, but for bigger data, the lack of fine-tuning will affect the performance.
 
 <br><br>
