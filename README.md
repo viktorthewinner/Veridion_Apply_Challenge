@@ -67,7 +67,7 @@ When you’re finished with the challenge, please submit the link to your Github
   Con points:
   <br>-> I am not going full auto
   <br>-> more time spent on developing own model
-  <br>-> at the beggining it is harder to scale for bigger sets of data, because of the lack of training
+  <br>-> at the begining it is harder to scale for bigger sets of data, because of the lack of training
 
 - Second method:
   The first method I built, checking my knowledge/tutorials/AI. I wrote some strong comments in the code also. I can say as well as you that it is a cheap version, not classy.<br>
